@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Guest list</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+<body>
+    <center>
+    <b><h1>Guest list</h1></b>
+    <br>
+    <span><input type="text" placeholder="name" id="name_input"></span>
+    <button onclick="submit();" id="adding_button">Submit</button>
+    <br>
+    <h2 id="normal_list"> No names yet. Enter a name to get started.</h2>
+    <div id="proper_list">
+        <b><h1>Guest list</h1></b>
+        <button id="show_button" onclick="shownames()">show</button>
+        <h3 id="unsorted_names"></h3>
+    </div>
+    <br>
+   <div id="sorted_list">
+    <button id="sorting_button" onclick="sorting();">sorted list</button>
+    <br>
+    <div>
+        <h3 id="sorted_names"></h3>
+   </div>
+   </div>
+<div id="search_div">
+<span><input type="text" placeholder="search" id="search_input"></span>
+<button id="search_button" onclick="search();">search</button>
+<div></div>
+<h4 id="result">0 names found</h4>
+</div>
+</center>
+</body>

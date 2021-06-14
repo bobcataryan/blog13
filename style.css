@@ -1,0 +1,29 @@
+#normal_list{
+padding: 35px;
+    height: fit-content;
+    border: 5px;
+    border-style: ridge;
+    border-color: silver;
+}
+#proper_list{
+    height: fit-content;
+    padding: 35px;
+border: 5px;
+border-style: ridge;
+border-color: silver;
+}
+#sorted_list{
+    height: fit-content;
+    padding: 35px;
+border: 5px;
+border-style: ridge;
+border-color: silver;
+margin-bottom: 30px;
+}
+#search_div{
+height: fit-content;
+padding: 35px;
+border: 5px;
+border-style: ridge;
+border-color: silver;
+}
